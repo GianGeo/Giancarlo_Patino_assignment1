@@ -9,3 +9,12 @@ body {
   color: #31748f;
   text-align: center;
 }
+.header {
+  color: #31748f;
+  font-family: 'PT Serif', sans-serif;
+}
+
+nav {
+  color: #31748f;
+  font-family: 'IBM Plex Sans Thai Looped';
+}
