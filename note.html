@@ -20,16 +20,24 @@
       <p>Created by Gianni Patino</p>
     </div>
   </nav>
-  <button class="slide_out" type="button">Create a new note</button>
+  <div class="note-button">
+    <button class="slide_out" type="button">Create a new note</button>
+  </div>
   <section>
     <button class="slide_out" type="button">&#10231;</button>
   </section>
+  <button class="slide_out" type="button">Delete</button>
+  <section>
+    <button class="slide_out" type="button">Save</button>
+  </section>
   <body>
-    <textarea
-      class="textarea"
-      placeholder="Create a note..."
-      rows=""
-      cols=""
-    ></textarea>
+    <div class="flexbox-container">
+      <textarea
+        class="textarea"
+        placeholder="Create a note..."
+        rows="10"
+        cols="70"
+      ></textarea>
+    </div>
   </body>
 </html>
