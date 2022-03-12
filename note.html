@@ -13,31 +13,39 @@
     />
     <title>Document</title>
   </head>
-  <nav>
-    <a href="about.html">About</a>
-    <a href="Docs.html">Docs</a>
+  <body>
+    <nav>
+      <a class="bar" href="Docs.html">Docs</a>
+      <a class="bar" href="about.html">About</a>
+    </nav>
     <div class="footer">
       <p>Created by Gianni Patino</p>
     </div>
-  </nav>
-  <div class="note-button">
-    <button class="slide_out" type="button">Create a new note</button>
-  </div>
-  <section>
-    <button class="slide_out" type="button">&#10231;</button>
-  </section>
-  <button class="slide_out" type="button">Delete</button>
-  <section>
-    <button class="slide_out" type="button">Save</button>
-  </section>
-  <body>
-    <div class="flexbox-container">
+    <div class="note-button"></div>
+    <div class="side-menu">
+      <nav>
+        <button class="top-button" type="button">&#10231;</button>
+        <ul>
+          <li>Notes</li>
+          <li>Note one</li>
+          <li>Note 2</li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="textflex">
+      <button class="newnote" type="button">Create a new note</button>
       <textarea
         class="textarea"
         placeholder="Create a note..."
         rows="10"
         cols="70"
       ></textarea>
+    </div>
+    <div class="middle-buttons">
+      <button class="slide_out" type="button">Delete</button>
+
+      <button class="slide_out" type="button">Save</button>
     </div>
   </body>
 </html>
